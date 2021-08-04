@@ -1,0 +1,3 @@
+BEGIN
+select * from tblusers where id=rid;
+END

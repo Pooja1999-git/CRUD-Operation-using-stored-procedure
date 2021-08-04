@@ -1,0 +1,12 @@
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `sp_insert`(
+fname varchar(120),
+lname varchar(120),
+emailid varchar(150),
+cntnumber bigint(12),
+address varchar(255)
+)
+BEGIN
+insert into tblusers(FirstName,LastName,EmailId,ContactNumber,Address) value(firstname,lastname,emailid,contactnumber,address);
+END;
+DELIMITER ;

@@ -1,0 +1,3 @@
+BEGIN
+update tblusers set FirstName=fname,LastName=lname,EmailId=emailid,ContactNumber=cntnumber,Address=address where id=rid;
+END
